@@ -13,11 +13,10 @@ public class CarServiceImpl implements CarService {
 
     {
         listCar.add(new Car("BMW", "Черный", 2999));
-        listCar.add(new Car("Mercedes", "Красный",3999));
-        listCar.add(new Car("Жига", "Белый",1));
-        listCar.add(new Car("Lexus", "Зеленый",1999));
-        listCar.add(new Car("Нива", "Синий",9999));
-
+        listCar.add(new Car("Mercedes", "Красный", 3999));
+        listCar.add(new Car("Жига", "Белый", 1));
+        listCar.add(new Car("Lexus", "Зеленый", 1999));
+        listCar.add(new Car("Нива", "Синий", 9999));
     }
 
     public CarServiceImpl() {

@@ -9,7 +9,6 @@ public class Car {
     public Car(String model, String color, double price) {
         this.model = model;
         this.color = color;
-
         this.price = price;
     }
 
@@ -28,7 +27,6 @@ public class Car {
     public void setColor(String color) {
         this.color = color;
     }
-
 
     public double getPrice() {
         return price;
