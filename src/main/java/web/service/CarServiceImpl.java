@@ -24,11 +24,15 @@ public class CarServiceImpl implements CarService {
 
     @Override
     public List<Car> readCar(int n) {
-        List<Car> newListCar = new ArrayList<>();
-        for (int i = 0; i < n; i++) {
-            newListCar.add(listCar.get(i));
+           List<Car> newListCar = new ArrayList<>();
+        if (n>=5) {
+            newListCar.addAll(listCar);
+        } else {
+            for (int i = 0; i < n; i++) {
+                newListCar.add(listCar.get(i));
+            }
         }
-        return newListCar;
+            return newListCar;
     }
 }
 

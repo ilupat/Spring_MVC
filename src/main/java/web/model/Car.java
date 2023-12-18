@@ -3,7 +3,6 @@ package web.model;
 public class Car {
     private String model;
     private String color;
-
     private double price;
 
     public Car(String model, String color, double price) {
